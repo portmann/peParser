@@ -1,0 +1,97 @@
+	{
+		"alignment": true,
+		"worksheetName": "Investment data sheet",
+		"fileUrl": "testFiles/Test1.xlsx",
+		"companyName": {
+			"colFieldNum": 1,
+			"header": "Companies",
+			"dataType": "String"
+		},
+		"currency": {
+			"colFieldNum": 26,
+			"header": "Currency Portfolio company",
+			"dataType": "String"
+		},
+		"entryFigures": {
+			"dataType": "TIMESTAMP",
+			"date": {
+				"rowFieldNum": 1,
+				"colFieldNum": 24,
+				"dataType": "Date"
+			},
+			"netDebt": {
+				"colFieldNum": 35,
+				"header": "Net (financial) debt at entry (in million)",
+				"dataType": "Num"
+			},
+			"enterpriseValue": {
+				"colFieldNum": 31,
+				"header": "EV at entry (in million)",
+				"dataType": "Num"
+			},
+			"sales": {
+				"colFieldNum": 27,
+				"header": "Revenue at entry (in million)",
+				"dataType": "Num"
+			},
+			"ebitda": {
+				"colFieldNum": 28,
+				"header": "EBITDA at entry (in million)",
+				"dataType": "Num"
+			},
+			"ebitdaX": {
+				"colFieldNum": 33,
+				"header": "EV / EBITDA at entry",
+				"dataType": "Num"
+			},
+			"salesX": {
+				"colFieldNum": 32,
+				"rowFieldNum": 0,
+				"header": "EV / Revenue at entry",
+				"dataType": "Num"
+			}
+		},
+		"currentFigures": {
+			"dataType": "TIMESERIES",
+			"date": {
+				"colFieldNum": 37,
+				"header": "Exit date / Valuation date",
+				"dataType": "Date"
+			},
+			"netDebt": {
+				"colFieldNum": 44,
+				"header": "Net debt exit year / current (in million)",
+				"dataType": "Num"
+			},
+			"enterpriseValue": {
+				"colFieldNum": 43,
+				"header": "EV exit year / current (in million)",
+				"dataType": "Num"
+			},
+			"sales": {
+				"colFieldNum": 39,
+				"header": "Revenue exit year/current (in million)",
+				"dataType": "Num"
+			},
+			"ebitda": {
+				"colFieldNum": 40,
+				"header": "EBITDA exit year/current (in million)",
+				"dataType": "Num"
+			},
+			"irr": {
+				"colFieldNum": 55,
+				"header": "IRR (%)",
+				"dataType": "Num"
+			},
+			"ebitdaX": {
+				"colFieldNum": 47,
+				"header": "EV / EBITDA exit  year/ current",
+				"dataType": "Num"
+			},
+			"salesX": {
+				"colFieldNum": 46,
+				"header": "EV / Revenue exit year/ current",
+				"dataType": "Num"
+			}
+		}
+	}

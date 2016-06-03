@@ -1,0 +1,37 @@
+{
+	"alignment":true,
+	"worksheetName":"Investment data sheet",
+	"fileUrl":"FileUrl",
+	"companyName":{"colFieldNum":2,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"String"},
+	"currency":{"colFieldNum":2,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"String"},
+	
+	"entryFigures":
+	{
+		"dataType":"TIMESTAMP",
+		"date":{"colFieldNum":8,"rowFieldNum":9,"header":"ThisIsAField!","dataType":"Date"},
+		"netDebt":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"enterpriseValue":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"sales":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"ebitda":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"dealValue":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"irr":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"ebitdaX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"salesX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"peX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"}
+	},
+	
+	"currentFigures":
+	{
+		"dataType":"TIMESTAMP",
+		"date":{"colFieldNum":8,"rowFieldNum":9,"header":"ThisIsAField!","dataType":"Date"},
+		"netDebt":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"enterpriseValue":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"sales":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"ebitda":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"dealValue":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"irr":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"ebitdaX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"salesX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"},
+		"peX":{"colFieldNum":5,"rowFieldNum":0,"header":"ThisIsAField!","dataType":"Num"}
+	}
+}
